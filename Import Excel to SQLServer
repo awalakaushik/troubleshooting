@@ -1,0 +1,16 @@
+ “The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine” Error in importing process of xlsx to a sql server
+ 
+ Credits: "http://stackoverflow.com/questions/9943065/the-microsoft-ace-oledb-12-0-provider-is-not-registered-on-the-local-machine"
+ 
+ Install 
+111
+down vote
+accepted
+the file can be made in excel 2007, try to install:
+
+2007 Office System Driver: Data Connectivity Components (https://www.microsoft.com/en-us/download/details.aspx?id=23734)
+AccessDatabaseEngine.exe (25.3 MB)
+
+This download will install a set of components that facilitate the transfer of data between existing Microsoft Office files 
+such as Microsoft Office Access 2007 (*.mdb and .accdb) files and Microsoft Office Excel 2007 (.xls, *.xlsx, and *.xlsb) 
+files to other data sources such as Microsoft SQL Server.
