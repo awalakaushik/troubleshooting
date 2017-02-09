@@ -1,0 +1,31 @@
+Credits: 
+"https://support.office.com/en-us/article/Paste-values-not-formulas-12687b4d-c79f-4137-b0cc-947c229c55b9?ui=en-US&rs=en-US&ad=US&fromAR=1"
+
+Sometimes, when you copy the contents of a cell, you want to paste just the value and not the underlying formula that is 
+displayed in the formula bar.
+
+For example, you might want to copy the resulting value of a formula to a cell on another worksheet. 
+Or you might want to delete the values that you used in a formula after you copied the resulting value to another cell on the worksheet. 
+Both of these actions cause an invalid cell reference error (#REF!) error to appear in the destination cell, because the cells that 
+contain the values that you used in the formula can no longer be referenced.
+
+You can avoid this error by pasting the resulting values of formulas without the formula in destination cells.
+
+On a worksheet, select the cells that contain the resulting values of a formula that you want to copy.
+
+On the Home tab, in the Clipboard group, click Copy 
+-OR-
+
+Press CTRL+C.
+
+Select the upper-left cell of the paste area.
+
+TIP:  To move or copy a selection to a different worksheet or workbook, click another worksheet tab or switch to another workbook, 
+and then select the upper-left cell of the paste area.
+
+On the Home tab, in the Clipboard group, click Paste  Button image , and then click Paste Values.
+
+-OR-
+
+Press Ctrl+Alt+V. This displays the Paste Special dialog box.
+Press V to select Values, and then press Enter.
