@@ -1,0 +1,17 @@
+Do the following when matplot lib doesn't run on your Mac OS X device.
+
+change your directory to the following
+
+$ cd ~/.matplotlib
+
+Then, nano matplotlibrc file as follows
+$ nano matplotlibrc
+
+Inside this file, insert the following text,
+backend: TkAgg
+
+use ctrl+C to exit and type y to exit and return to exit to save the file with the same name.
+
+Finally, to plot graphs or images in matplotlib, import in your python program as follows
+
+import matplotlib.pyplot as plt
