@@ -1,2 +1,2 @@
-# troubleshooting
-Solutions to problems
+# Troubleshooting
+Solutions to commonly faced problems
