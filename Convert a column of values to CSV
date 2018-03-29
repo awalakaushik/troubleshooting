@@ -1,0 +1,8 @@
+Step1: Copy the column that you want to convert to CSV
+Step2: Paste the values in Word
+Step3: Click Ctrl + H 
+Step4: In the Find Box, type "^p"
+Step5: In the Replace Box, type ","
+Step6: Hit Replace All to convert the values to comma separated values
+Step7: Copy the data and paste in Notepad and save with the extension .csv
+Step8: You're done
